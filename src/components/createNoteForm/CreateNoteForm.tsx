@@ -20,7 +20,6 @@ type FormData = {
 };
 
 export default function CreateNoteForm({
-  notes,
   setNotes,
 }: CreateNoteFormProps) {
   const [formData, setFormData] = useState<FormData>({
